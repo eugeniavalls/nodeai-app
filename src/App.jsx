@@ -7,12 +7,9 @@ function App() {
   return (
     <BrowserRouter>
       <>
-        {/* <h1>Node.ai</h1> */}
-
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home />} />
         </Routes>
-
       </>
     </BrowserRouter>
   )
