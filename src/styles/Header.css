@@ -1,0 +1,22 @@
+.Header{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 4%;
+    /* margin-bottom: 10%; */
+}
+
+.Header-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.Header-suggestions{
+    text-decoration:underline;
+    text-underline-offset: 15px;
+    text-decoration-color: var(--apply-color);
+    color: var(--apply-color);
+}

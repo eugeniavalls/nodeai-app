@@ -5,11 +5,14 @@
   /* ----- Colores ----- */
   --background-color: #2b2b2b;
   --text-color: white;
-  --primary-color: black;   /* Color tipografias y botones */
-  --secundary-color: white; /* Color background-color */
-  --terciary-color: #ffe800; /* Color a destacar */
-  --hover-color: lightgray; /* Color hover */
-  --color-opacity: #a5a5a5; /* Color opacidad */
+  --graphic-color: #67c365;
+  --desatured-graphic-color: #89BF80;  
+  --apply-color: #26d8e4;
+  --negative-color: #DF4345;
+  --desatured-negative-color: #BD6465;
+  --line-color: #D9D9D9;
+  --opacity-color: #6d6d6d;
+
   /* ----- Pesos tipográficos ----- */
   --font-extralight: 200; /* Tipografia extralight */
   --font-light: 300; /* Tipografia light */
@@ -43,7 +46,7 @@
 /* Reseteamos los margin y paddings de todas las etiquetas */
 * {
   margin: 0;
-  padding: 0;
+  padding: 0 2% 0 2%;
   border: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -124,13 +127,13 @@ q:after {
 
 /* Configuramos el texto que seleccionamos */
 ::-moz-selection {
-  background-color: var(--negro);
-  color: var(--blanco);
+  background-color: white;
+  color: var(--background-color);
 }
 
 ::selection {
-  background-color: var(--negro);
-  color: var(--blanco);
+  background-color: rgb(204, 211, 219);
+  color: var(--background-color);
 }
 
 /* Nivelamos problemas de tipografías y colocación de formularios */
