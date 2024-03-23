@@ -5,7 +5,7 @@ import '/src/script.js'
 
 
 export const Home = () => {
-    return(
+    return (
         <>
             <header className='Header'>
                 <nav className='Header-nav'>
@@ -26,12 +26,12 @@ export const Home = () => {
 
                 <div className='Container'>
                     <div className='Container-graphics'>
-                    
+
                         <div className='Graphic'>
                             <p>Current Portfolio Score</p>
                             <div className='Graphic-container'>
                                 <div className='Graphic-circular-progress'>
-                                    <span className='Graphic-progress-value'>83.75%</span>
+                                    <span className='Graphic-progress-value'>83%</span>
                                 </div>
                             </div>
                         </div>
@@ -51,6 +51,29 @@ export const Home = () => {
                         </div>
 
                     </div>
+
+                    <div className='linea'></div>
+
+                    <div className='Score-components'>
+                        <p>Score Components</p>
+                        <div>
+                            <div>
+                                <div>
+                                    <img src="" alt="risk" />
+                                    <span>Risk Match</span>
+                                </div>
+                                <div className='barra'>Barra</div>
+
+                                <p>92,54% Excellent</p>
+                            </div>
+                            <div>
+                                <img src="" alt="flecha" />
+                                <div>Barra</div>
+                                <span>65.78% Excellent</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
         </>
