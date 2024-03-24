@@ -1,0 +1,177 @@
+.Portfolio{
+
+}
+
+.Portfolio-h2{
+    font-size: 20px;
+    font-weight: var(--font-semibold);
+    /* margin-bottom: 1%; */
+}
+
+.Portfolio-text{
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.Container-graphics{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    
+}
+
+.Graphic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.Graphic-text{
+    font-weight: var(--font-semibold);
+}
+
+.Graphic-circular-progress{
+    position: relative;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background: conic-gradient(var(--graphic-color)3.6deg, var(--opacity-color) 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Graphic-circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+}
+
+.Graphic-progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: var(--font-semibold);
+    color: var(--graphic-color);
+}
+.Arrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.Arrow-text{
+    color: var(--graphic-color);
+}
+
+.Arrow-img{
+    width: 50%;
+}
+
+.Line{
+    height: 12.5rem;
+    /* width: 0.2rem; */
+    /* padding: 0 0 20% 10%; */
+    margin-left: 12%;
+    border-left: 1px solid var(--line-color);
+    /* background-color: var(--line-color); */
+}
+
+.Score-components{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+
+.Component{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.Component-first-part{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.Component-icon-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.Component-icon{
+    width: 30px;
+    height: 25px;
+}
+
+.Component-text{
+    width: 140px;
+}
+
+/* .skills:not(:last-child){
+    margin-bottom: 30px;
+} */
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.menu{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 500px;
+    height: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 20px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+/* animacion */
+
+#first-bar{
+    animation: risk-first 2s forwards;
+}
+
+@keyframes risk-first {
+    100%{
+        width: 93%;
+    }
+}
+
+
+.Component-arrow{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
