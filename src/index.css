@@ -46,7 +46,7 @@
 /* Reseteamos los margin y paddings de todas las etiquetas */
 * {
   margin: 0;
-  padding: 0 2% 0 2%;
+  /* padding: 0 2% 0 2%; */
   border: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -60,7 +60,7 @@ video,
 iframe,
 figure {
   max-width: 100%;
-  width: 100%;
+  /* width: 100%; */
   display: block;
   /* opcional */
   -o-object-fit: cover;

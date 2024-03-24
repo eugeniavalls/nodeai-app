@@ -66,7 +66,7 @@ export const Home = () => {
 
                                 <div className='skills'>
                                     <div className='menu'>
-                                        <div id='first-bar'></div>
+                                        <div id='risk-firstbar'></div>
                                     </div>
                                     <div className='detalles'>
                                         <span>92.90% Excellent</span>
@@ -82,10 +82,10 @@ export const Home = () => {
 
                                 <div className='skills'>
                                     <div className='menu'>
-                                        <div id='first-bar'></div>
+                                        <div id='risk-secondbar'></div>
                                     </div>
                                     <div className='detalles'>
-                                        <span>92.90% Excellent</span>
+                                        <span>96.61% Excellent</span>
                                     </div>
                                 </div>
 
@@ -103,10 +103,10 @@ export const Home = () => {
 
                                 <div className='skills'>
                                     <div className='menu'>
-                                        <div id='first-bar'></div>
+                                        <div id='sector-firstbar'></div>
                                     </div>
                                     <div className='detalles'>
-                                        <span>92.90% Excellent</span>
+                                        <span>71.67% Good</span>
                                     </div>
                                 </div>
 
@@ -119,10 +119,10 @@ export const Home = () => {
 
                                 <div className='skills'>
                                     <div className='menu'>
-                                        <div id='first-bar'></div>
+                                        <div id='sector-secondbar'></div>
                                     </div>
                                     <div className='detalles'>
-                                        <span>92.90% Excellent</span>
+                                        <span>88.33% Very Good</span>
                                     </div>
                                 </div>
 
@@ -140,10 +140,10 @@ export const Home = () => {
 
                                 <div className='skills'>
                                     <div className='menu'>
-                                        <div id='first-bar'></div>
+                                        <div id='boosted-firstbar'></div>
                                     </div>
                                     <div className='detalles'>
-                                        <span>92.90% Excellent</span>
+                                        <span>72.53% Good</span>
                                     </div>
                                 </div>
 
@@ -156,10 +156,10 @@ export const Home = () => {
 
                                 <div className='skills'>
                                     <div className='menu'>
-                                        <div id='first-bar'></div>
+                                        <div id='boosted-secondbar'></div>
                                     </div>
                                     <div className='detalles'>
-                                        <span>92.90% Excellent</span>
+                                        <span>81.67% Very Good</span>
                                     </div>
                                 </div>
                                 

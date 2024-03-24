@@ -121,7 +121,7 @@
 }
 
 .Component-text{
-    width: 140px;
+    width: 145px;
 }
 
 /* .skills:not(:last-child){
@@ -143,7 +143,8 @@
 
 .menu{
     position: relative;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    background-color: var(--opacity-color);
     border-radius: 20px;
     width: 500px;
     height: 20px;
@@ -151,21 +152,78 @@
 
 .menu div{
     position: relative;
+    /* left: -13px; */
+    /* bottom: 1px;
+    left: -1px; */
     width: 0;
     height: 20px;
     border-radius: 20px;
-    background-color: red;
+    background-color: var(--graphic-color);
+    /* border: 1px solid var(--graphic-color); */
 }
 
 /* animacion */
 
-#first-bar{
+#risk-firstbar{
     animation: risk-first 2s forwards;
 }
 
 @keyframes risk-first {
     100%{
-        width: 93%;
+        width: 92.90%;
+        /* 111 */
+    }
+}
+
+#risk-secondbar{
+    animation: risk-second 2s forwards;
+}
+
+@keyframes risk-second {
+    100%{
+        width: 96.61%;
+    }
+}
+
+#sector-firstbar{
+    animation: sector-first 2s forwards;
+}
+
+@keyframes sector-first {
+    100%{
+        width: 71.67%;
+        /* 111 */
+    }
+}
+
+#sector-secondbar{
+    animation: sector-second 2s forwards;
+}
+
+@keyframes sector-second {
+    100%{
+        width: 88.33%;
+    }
+}
+
+#boosted-firstbar{
+    animation: boosted-first 2s forwards;
+}
+
+@keyframes boosted-first {
+    100%{
+        width: 72.53%;
+        /* 111 */
+    }
+}
+
+#boosted-secondbar{
+    animation: boosted-second 2s forwards;
+}
+
+@keyframes boosted-second {
+    100%{
+        width: 81.67%;
     }
 }
 
