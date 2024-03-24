@@ -1,0 +1,97 @@
+.Changes {
+    padding: 0 2%;
+    margin-bottom: 5%;
+}
+
+.Changes-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Changes-allocation {
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 0.0625rem solid var(--opacity-color);
+    border-radius: 0.5rem;
+}
+
+.Changes-title {
+    font-weight: var(--font-semibold);
+    padding-bottom: 0.625rem;
+}
+
+.Allocation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 21.875rem;
+}
+
+.Allocation-percentages {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.75rem;
+}
+
+.Allocation-bar {
+    width: 100%;
+    height: 1.25rem;
+    background-color: var(--graphic-color);
+}
+
+.Percentage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.Percentage-icon {
+    width: 0.75rem;
+}
+
+.Dividend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Changes-curent {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+    border: 0.0625rem solid var(--opacity-color);
+    border-radius: 0.5rem;
+    height: 7.8125rem;
+}
+
+.Changes-title-dividend {
+    font-weight: var(--font-semibold);
+    font-size: 0.75rem;
+}
+
+.Changes-curent-percentage {
+    font-size: 1.875rem;
+    font-weight: var(--font-semibold);
+}
+
+.Changes-separate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Changes-separate-text {
+    font-size: 0.75rem;
+    color: var(--graphic-color);
+}

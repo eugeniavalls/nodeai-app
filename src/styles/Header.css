@@ -1,4 +1,4 @@
-.Header{
+.Header {
     display: block;
     max-width: 100%;
     width: 100%;
@@ -6,7 +6,7 @@
     margin-bottom: 4%;
 }
 
-.Header-nav{
+.Header-nav {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -14,9 +14,9 @@
     gap: 1rem;
 }
 
-.Header-suggestions{
-    text-decoration:underline;
-    text-underline-offset: 15px;
+.Header-suggestions {
+    text-decoration: underline;
+    text-underline-offset: 0.9375rem;
     text-decoration-color: var(--apply-color);
     color: var(--apply-color);
 }

@@ -1,168 +1,182 @@
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 5%;
 }
 
-th, td {
-    /* border-top: 1px solid var(--line-color); */
-    border-bottom: 1px solid var(--opacity-color);
-    padding: 0 8px;
+th,
+td {
+    border-bottom: 0.0625rem solid var(--opacity-color);
+    padding: 0 0.5rem;
     text-align: center;
 }
 
-
-.Row1{
+.Row1 {
     text-align: left;
-    width: 50px;
-    padding:  15px 0;
+    width: 3.125rem;
+    padding: 0.9375rem 0;
 }
 
-.Row1-column1, .Row2-column1{
-    height: 62px;
+.Row1-column1,
+.Row2-column1 {
+    height: 3.875rem;
 }
 
-.Row1-column2, .Row1-column3, .Row1-column4, .Row1-column5, .Row1-column6, .Row1-column7, .Row1-column8, .Row2-column2, .Row2-column3, .Row2-column4, .Row2-column5, .Row2-column6, .Row2-column7, .Row2-column8{
-    height: 83px;
+.Row1-column2,
+.Row1-column3,
+.Row1-column4,
+.Row1-column5,
+.Row1-column6,
+.Row1-column7,
+.Row1-column8,
+.Row2-column2,
+.Row2-column3,
+.Row2-column4,
+.Row2-column5,
+.Row2-column6,
+.Row2-column7,
+.Row2-column8 {
+    height: 5.1875rem;
     vertical-align: none;
-    
 }
 
 
-.Row3,.Row1-column3, .Row2-column3, .Row4, .Row1-column4, .Row2-column4{
-    border-right: 1px solid var(--opacity-color);
+.Row3,
+.Row1-column3,
+.Row2-column3,
+.Row4,
+.Row1-column4,
+.Row2-column4 {
+    border-right: 0.0625rem solid var(--opacity-color);
 }
 
-.Security-container{
+.Security-container {
     display: flex;
     justify-content: start;
     align-items: center;
-    /* gap: 2rem; */
-}
-.Security{
-    width: 200px;
-    text-align: left;
-    /* border-top: 1px solid var(--background-color); */
 }
 
-.Security-title{
+.Security {
+    width: 12.5rem;
+    text-align: left;
+}
+
+.Security-title {
     font-weight: var(--font-semibold);
     color: var(--apply-color);
 }
 
-.Portfolio-score-positive{
+.Portfolio-score-positive {
     color: var(--graphic-color);
 }
 
-.Portfolio-score-negative{
+.Portfolio-score-negative {
     color: var(--negative-color);
 }
 
-.Alt-button{
+.Alt-button {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    border: 1px solid var(--line-color);
-    padding: 4px 0;
+    border: 0.0625rem solid var(--line-color);
+    padding: 0.25rem 0;
     width: 80%;
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
-.Alt-icon{
-    width: 12px;
-    height: 10px;
+.Alt-icon {
+    width: 0.75rem;
+    height: 0.625rem;
 }
 
-.Weight{
+.Weight {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
 
-.Weight-result{
+.Weight-result {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.Weight-result-text{
-    font-size: 12px;
+.Weight-result-text {
+    font-size: 0.75rem;
 }
 
-.Sell{
+.Sell {
     color: var(--negative-color);
 }
 
-.Buy{
+.Buy {
     color: var(--graphic-color);
 }
 
-.Weight-result-arrow{
-    width: 16px;
-    height: 10px;
+.Weight-result-arrow {
+    width: 1rem;
+    height: 0.625rem;
 }
 
-.Consensus-button{
-    font-size: 14px;
+.Consensus-button {
+    font-size: 0.875rem;
     width: 35%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 
-.Consensus-sell{
+.Consensus-sell {
     background-color: var(--desatured-negative-color);
 }
 
-.Consensus-buy{
+.Consensus-buy {
     background-color: var(--desatured-graphic-color);
 }
 
-.Risk{
+.Risk {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
-.Risk-icon{
-    width: 12px;
-    height: 10px;
+.Risk-icon {
+    width: 0.75rem;
+    height: 0.625rem;
 }
 
-.Icon-negative{
-    height: 2px;
+.Icon-negative {
+    height: 0.125rem;
 }
 
-.Reward{
-
-}
-
-.Reward-text{
-    font-size: 12px;
+.Reward-text {
+    font-size: 0.75rem;
     text-align: center;
 }
 
-.Reward-negative{
-    font-size: 24px;
+.Reward-negative {
+    font-size: 1.5rem;
     font-weight: var(--font-semibold);
 }
 
+/* Animación de número */
 .animate-number {
-    animation: animateNumber 1.5s ease-in-out forwards;
-    opacity: 0;
+    animation: animateNumber 1.5s ease-in-out forwards; /* Nombre, duración y dirección */
+    opacity: 0; /* Inicialmente invisible */
 }
 
 @keyframes animateNumber {
     from {
-        opacity: 0;
-        transform: translateY(20px);
+        opacity: 0; /* Opacidad inicial */
+        transform: translateY(1.25rem); /* Movimiento hacia arriba para aparecer desde abajo */
     }
+
     to {
-        opacity: 1;
-        transform: translateY(0);
+        opacity: 1; /* Opacidad final */
+        transform: translateY(0); /* Sin desplazamiento vertical al final */
     }
 }
-

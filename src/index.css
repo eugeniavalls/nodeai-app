@@ -3,12 +3,10 @@
 /* Aquí definimos las Custom properties */
 :root {
   /* ----- Colores ----- */
-  /* --background-color: radial-gradient(circle, black, #2b2b2b); */
-  /* --background-color: radial-gradient(circle 1000px at center, black, #2b2b2b); */
   --background-color: #2b2b2b;
   --text-color: white;
   --graphic-color: #67c365;
-  --desatured-graphic-color: #89BF80;  
+  --desatured-graphic-color: #89BF80;
   --apply-color: #26d8e4;
   --negative-color: #DF4345;
   --desatured-negative-color: #BD6465;
@@ -16,19 +14,24 @@
   --opacity-color: #6d6d6d;
 
   /* ----- Pesos tipográficos ----- */
-  --font-extralight: 200; /* Tipografia extralight */
-  --font-light: 300; /* Tipografia light */
-  --font-regular: 400; /* Tipografia regular */
-  --font-medium: 500; /* Tipografia medium */
-  --font-semibold: 600; /* Tipografia semibold */
-  --font-bold: 700; /* Tipografia bold */
+  --font-extralight: 200;
+  /* Tipografia extralight */
+  --font-light: 300;
+  /* Tipografia light */
+  --font-regular: 400;
+  /* Tipografia regular */
+  --font-medium: 500;
+  /* Tipografia medium */
+  --font-semibold: 600;
+  /* Tipografia semibold */
+  --font-bold: 700;
+  /* Tipografia bold */
 }
 
 /* Las adaptamos al modo oscuro */
 @media (prefers-color-scheme: dark) {
   :root {
     --negro: #2b2b2b;
-    /* --negro: #ececec; */
   }
 }
 
@@ -47,9 +50,7 @@
 
 /* Reseteamos los margin y paddings de todas las etiquetas */
 * {
-  /* overflow: hidden; */
   margin: 0;
-  /* padding: 0 2% 0 2%; */
   border: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -63,7 +64,6 @@ video,
 iframe,
 figure {
   max-width: 100%;
-  /* width: 100%; */
   display: block;
   /* opcional */
   -o-object-fit: cover;
@@ -178,15 +178,12 @@ svg {
 /* Configuramos la tipografía para toda la web */
 body {
   min-height: 100vh;
-  /* max-width: 1440px; */
-  /* overflow-y: auto; */
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   font-size: 100%;
   font-family: 'Montserrat', sans-serif;
   color: var(--text-color);
-  /* background: var(--background-color); */
   background-color: var(--background-color);
   /* opcional */
   line-height: 1.4em;

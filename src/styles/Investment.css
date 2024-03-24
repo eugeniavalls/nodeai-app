@@ -1,6 +1,5 @@
 .Investment{
     padding: 0 2%;
-
 }
 
 .Investment-first{
@@ -10,7 +9,7 @@
 }
 
 .Investment-h3{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .Blue-text{
@@ -28,20 +27,20 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    border: 1px solid var(--opacity-color);
-    border-radius: 6px;
-    padding: 10px 16px;
+    border: 0.0625rem solid var(--opacity-color);
+    border-radius: 0.375rem;
+    padding: 0.625rem 1rem;
 }
 
 .Investment-positive-img{
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
 }
 
 .Investment-apply{
-    border: 1px solid var(--apply-color);
-    border-radius: 6px;
-    padding: 10px 16px;
+    border: 0.0625rem solid var(--apply-color);
+    border-radius: 0.375rem;
+    padding: 0.625rem 1rem;
     color: var(--background-color);
     background-color: var(--apply-color);
 }
@@ -55,11 +54,7 @@
 }
 
 .Investment-suggestions-text{
-    font-size: 18px;
-}
-
-.Suggestions-button-text-semibold{
-    font-weight: var(--font-semibold);
+    font-size: 1.125rem;
 }
 
 .Investment-suggestions-button{
@@ -67,12 +62,16 @@
     justify-content: space-between;
     gap: 1rem;
     align-items: center;
-    border: 1px solid var(--opacity-color);
-    border-radius: 6px;
-    padding: 10px 16px;
+    border: 0.0625rem solid var(--opacity-color);
+    border-radius: 0.375rem;
+    padding: 0.625rem 1rem;
+}
+
+.Suggestions-button-text-semibold{
+    font-weight: var(--font-semibold);
 }
 
 .Suggestions-icon-open{
-    width: 12px;
-    height: 10px;
+    width: 0.75rem;
+    height: 0.625rem;
 }
