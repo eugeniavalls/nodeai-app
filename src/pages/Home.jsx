@@ -179,7 +179,7 @@ export const Home = () => {
                 <div className='Investment-first'>
 
                     <h3 className='Investment-h3'>Based on your <span class="Blue-text">portfolio investment style</span>, we have the following recommendations for your portfolio</h3>
-                    
+
                     <div className='Investment-buttons'>
                         <div className='Investment-select'>
                             <img src="./positive.svg" alt="+" className='Investment-positive-img' />
@@ -204,7 +204,7 @@ export const Home = () => {
                     <tr className='Row-header'>
                         <th className='Row1'>Security</th>
                         <th className='Row2'>Portfolio Score</th>
-                        <th className='Row3'> - </th>
+                        <th className='Row3'>  </th>
                         <th className='Row4'>Weight %</th>
                         <th className='Row5'>Consensus Rec.</th>
                         <th className='Row6'>Yield</th>
@@ -219,7 +219,7 @@ export const Home = () => {
                             </div>
                             <img src="./security.svg" alt="security" className='Security-icon' />
                         </td>
-                        <td className='Row1-column2 Portfolio-score-positive'>+12.54%</td>
+                        <td className='Row1-column2 Portfolio-score-positive animate-number'>+12.54%</td>
                         <td className='Row1-column3'>
                             <div className='Alt-button'>
                                 <img src="./open-white.svg" alt="open" className='Alt-icon' />
@@ -227,12 +227,12 @@ export const Home = () => {
                             </div>
                         </td>
                         <td className='Row1-column4 Weight'>
-                            <p className='Weight-text'>30.00%</p>
+                            <p className='Weight-text animate-number'>30.00%</p>
                             <div className='Weight-result'>
                                 <p className='Weight-result-text Sell'>Sell</p>
                                 <img src="./arrow-white.svg" alt="Arrow" className='Weight-result-arrow' />
                             </div>
-                            <p className='Weight-text'>0.00</p>
+                            <p className='Weight-text animate-number'>00.00</p>
                         </td>
                         <td className='Row1-column5 Consensus'>
                             <div className='Consensus-button Consensus-sell'>
@@ -240,15 +240,15 @@ export const Home = () => {
                             </div>
                         </td>
                         <td className='Row1-column6 Yield'>
-                            <p className='Yield-text'>0.00%</p>
+                            <p className='Yield-text animate-number'>0.00%</p>
                         </td>
                         <td className='Row1-column7 Risk'>
                             <p className='Risk-text Risk-high'>High</p>
                             <img src="./open-red.svg" alt="Arrow" className='Risk-icon' />
                         </td>
                         <td className='Row1-column8 Reward'>
-                            <p className='Reward-text'>Neutral</p>
-                            <img src="./negative.svg" alt="Arrow" className='Reward-icon' />
+                            <p className='Reward-text'>Neutral <span className='Reward-negative'> -</span></p>
+                            {/* <img src="./negative.svg" alt="Arrow" className='Reward-icon' /> */}
                         </td>
                     </tr>
                     <tr className='Rows2-columns'>
@@ -259,7 +259,7 @@ export const Home = () => {
                             </div>
                             <img src="./security.svg" alt="security" className='Security-icon' />
                         </td>
-                        <td className='Row2-column2 Portfolio-score-negative'>-1.20%</td>
+                        <td className='Row2-column2 Portfolio-score-negative animate-number'>-1.20%</td>
                         <td className='Row2-column3'>
                             <div className='Alt-button'>
                                 <img src="./open-white.svg" alt="open" className='Alt-icon' />
@@ -267,12 +267,12 @@ export const Home = () => {
                             </div>
                         </td>
                         <td className='Row2-column4 Weight'>
-                            <p className='Weight-text'>0.00%</p>
+                            <p className='Weight-text animate-number'>00.00%</p>
                             <div className='Weight-result'>
                                 <p className='Weight-result-text Buy'>Buy</p>
                                 <img src="./arrow-white.svg" alt="Arrow" className='Weight-result-arrow' />
                             </div>
-                            <p className='Weight-text'>30.00</p>
+                            <p className='Weight-text animate-number'>30.00</p>
                         </td>
                         <td className='Row2-column5 Consensus'>
                             <div className='Consensus-button Consensus-buy'>
@@ -280,15 +280,15 @@ export const Home = () => {
                             </div>
                         </td>
                         <td className='Row2-column6 Yield'>
-                            <p className='Yield-text'>3.21%</p>
+                            <p className='Yield-text animate-number'>3.21%</p>
                         </td>
                         <td className='Row2-column7 Risk'>
                             <p className='Risk-text Risk-average'>Average</p>
-                            <img src="./negative.svg" alt="Arrow" className='Risk-icon' />
+                            <img src="./negative.svg" alt="Arrow" className='Risk-icon Icon-negative' />
                         </td>
                         <td className='Row2-column8 Reward'>
-                            <p className='Reward-text'>Neutral</p>
-                            <img src="./negative.svg" alt="Arrow" className='Reward-icon' />
+                            <p className='Reward-text'>Neutral <span className='Reward-negative'> -</span></p>
+                            {/* <img src="./negative.svg" alt="Arrow" className='Reward-icon' /> */}
                         </td>
                     </tr>
                 </table>

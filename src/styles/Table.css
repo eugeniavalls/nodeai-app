@@ -6,21 +6,30 @@ table {
 th, td {
     /* border-top: 1px solid var(--line-color); */
     border-bottom: 1px solid var(--opacity-color);
-    padding: 8px;
+    padding: 0 8px;
     text-align: center;
 }
 
-th {
-    /* background-color: #f2f2f2; */
-}
 
 .Row1{
     text-align: left;
     width: 50px;
+    padding:  15px 0;
 }
 
-.Row1-column1{
-    /* height: 80px; */
+.Row1-column1, .Row2-column1{
+    height: 62px;
+}
+
+.Row1-column2, .Row1-column3, .Row1-column4, .Row1-column5, .Row1-column6, .Row1-column7, .Row1-column8, .Row2-column2, .Row2-column3, .Row2-column4, .Row2-column5, .Row2-column6, .Row2-column7, .Row2-column8{
+    height: 83px;
+    vertical-align: none;
+    
+}
+
+
+.Row3,.Row1-column3, .Row2-column3, .Row4, .Row1-column4, .Row2-column4{
+    border-right: 1px solid var(--opacity-color);
 }
 
 .Security-container{
@@ -47,3 +56,113 @@ th {
 .Portfolio-score-negative{
     color: var(--negative-color);
 }
+
+.Alt-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 1px solid var(--line-color);
+    padding: 4px 0;
+    width: 80%;
+    border-radius: 4px;
+}
+
+.Alt-icon{
+    width: 12px;
+    height: 10px;
+}
+
+.Weight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Weight-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Weight-result-text{
+    font-size: 12px;
+}
+
+.Sell{
+    color: var(--negative-color);
+}
+
+.Buy{
+    color: var(--graphic-color);
+}
+
+.Weight-result-arrow{
+    width: 16px;
+    height: 10px;
+}
+
+.Consensus-button{
+    font-size: 14px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.Consensus-sell{
+    background-color: var(--desatured-negative-color);
+}
+
+.Consensus-buy{
+    background-color: var(--desatured-graphic-color);
+}
+
+.Risk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 12px;
+}
+
+.Risk-icon{
+    width: 12px;
+    height: 10px;
+}
+
+.Icon-negative{
+    height: 2px;
+}
+
+.Reward{
+
+}
+
+.Reward-text{
+    font-size: 12px;
+    text-align: center;
+}
+
+.Reward-negative{
+    font-size: 24px;
+    font-weight: var(--font-semibold);
+}
+
+.animate-number {
+    animation: animateNumber 1.5s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes animateNumber {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
