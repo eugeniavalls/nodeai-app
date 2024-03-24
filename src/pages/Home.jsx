@@ -1,6 +1,8 @@
 import '/src/styles/Home.css'
 import '/src/styles/Header.css'
 import '/src/styles/Portfolio.css'
+import '/src/styles/Investment.css'
+import '/src/styles/Table.css'
 import '/src/script.js'
 
 
@@ -84,7 +86,7 @@ export const Home = () => {
                                     <div className='menu'>
                                         <div id='risk-secondbar'></div>
                                     </div>
-                                    <div className='detalles'>
+                                    <div className='detalles detalles-second'>
                                         <span>96.61% Excellent</span>
                                     </div>
                                 </div>
@@ -121,7 +123,7 @@ export const Home = () => {
                                     <div className='menu'>
                                         <div id='sector-secondbar'></div>
                                     </div>
-                                    <div className='detalles'>
+                                    <div className='detalles detalles-second'>
                                         <span>88.33% Very Good</span>
                                     </div>
                                 </div>
@@ -134,7 +136,7 @@ export const Home = () => {
                         <div className='Component'>
                             <div className='Component-first-part'>
                                 <div className='Component-icon-container'>
-                                    <img src="./boosted.svg" alt="boosted" className='Component-icon' />
+                                    <img src="./boosted.svg" alt="boosted" className='Component-icon Component-icon-boosted ' />
                                     <p className='Component-text'>Boosted Rec.</p>
                                 </div>
 
@@ -158,11 +160,11 @@ export const Home = () => {
                                     <div className='menu'>
                                         <div id='boosted-secondbar'></div>
                                     </div>
-                                    <div className='detalles'>
+                                    <div className='detalles detalles-second'>
                                         <span>81.67% Very Good</span>
                                     </div>
                                 </div>
-                                
+
                                 {/* <div className='Bar Bar-boosted-result'>Barra</div>
                                 <p className='Component-arrow-result'>81.67% Very Good</p> */}
                             </div>
@@ -175,7 +177,9 @@ export const Home = () => {
 
             <section className='Investment'>
                 <div className='Investment-first'>
-                    <h3 className='Investment-h3'>Based on your portfolio investment style, we have the following recommendations for your portfolio</h3>
+
+                    <h3 className='Investment-h3'>Based on your <span class="Blue-text">portfolio investment style</span>, we have the following recommendations for your portfolio</h3>
+                    
                     <div className='Investment-buttons'>
                         <div className='Investment-select'>
                             <img src="./positive.svg" alt="+" className='Investment-positive-img' />
@@ -191,7 +195,7 @@ export const Home = () => {
                 <div className='Investment-suggestions'>
                     <p className='Investment-suggestions-text'>Get suggestions from</p>
                     <div className='Investment-suggestions-button'>
-                        <p className='Suggestions-button-text'>Watchlist: Approved Stock List</p>
+                        <p className='Suggestions-button-text'>Watchlist: <span className='Suggestions-button-text-semibold'>Approved Stocks List</span> </p>
                         <img src="./open-white.svg" alt="" className='Suggestions-icon-open' />
                     </div>
                 </div>
@@ -208,14 +212,14 @@ export const Home = () => {
                         <th className='Row8'>Reward</th>
                     </tr>
                     <tr className='Rows1-columns'>
-                        <td className='Row1-column1'>
+                        <td className='Row1-column1 Security-container'>
                             <div className='Security'>
                                 <p className='Security-title'>EXPE</p>
                                 <p className='Security-text'>Expedia Group, Inc.</p>
                             </div>
                             <img src="./security.svg" alt="security" className='Security-icon' />
                         </td>
-                        <td className='Row1-column2 Portfolio-score'>+12.54%</td>
+                        <td className='Row1-column2 Portfolio-score-positive'>+12.54%</td>
                         <td className='Row1-column3'>
                             <div className='Alt-button'>
                                 <img src="./open-white.svg" alt="open" className='Alt-icon' />
@@ -248,14 +252,14 @@ export const Home = () => {
                         </td>
                     </tr>
                     <tr className='Rows2-columns'>
-                        <td className='Row2-column1'>
+                        <td className='Row2-column1 Security-container'>
                             <div className='Security'>
                                 <p className='Security-title'>AMGN</p>
                                 <p className='Security-text'> Amgen Inc.</p>
                             </div>
                             <img src="./security.svg" alt="security" className='Security-icon' />
                         </td>
-                        <td className='Row2-column2 Portfolio-score'>-1.20%</td>
+                        <td className='Row2-column2 Portfolio-score-negative'>-1.20%</td>
                         <td className='Row2-column3'>
                             <div className='Alt-button'>
                                 <img src="./open-white.svg" alt="open" className='Alt-icon' />

@@ -1,0 +1,78 @@
+.Investment{
+    padding: 0 2%;
+
+}
+
+.Investment-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Investment-h3{
+    font-size: 18px;
+}
+
+.Blue-text{
+    color: var(--apply-color);
+}
+
+.Investment-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Investment-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid var(--opacity-color);
+    border-radius: 6px;
+    padding: 10px 16px;
+}
+
+.Investment-positive-img{
+    width: 16px;
+    height: 16px;
+}
+
+.Investment-apply{
+    border: 1px solid var(--apply-color);
+    border-radius: 6px;
+    padding: 10px 16px;
+    color: var(--background-color);
+    background-color: var(--apply-color);
+}
+
+.Investment-suggestions{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3rem;
+    margin-bottom: 2%;
+}
+
+.Investment-suggestions-text{
+    font-size: 18px;
+}
+
+.Suggestions-button-text-semibold{
+    font-weight: var(--font-semibold);
+}
+
+.Investment-suggestions-button{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid var(--opacity-color);
+    border-radius: 6px;
+    padding: 10px 16px;
+}
+
+.Suggestions-icon-open{
+    width: 12px;
+    height: 10px;
+}
