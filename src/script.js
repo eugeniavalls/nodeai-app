@@ -1,39 +1,3 @@
-// window.addEventListener('load', function () {
-//     let circularProgress = document.querySelectorAll(".Graphic-circular-progress"),
-//         progressValue = document.querySelectorAll(".Graphic-progress-value");
-
-//     // Valor inicial y final para cada gráfico
-//     let progressStarValue = 0,
-//         progressEndValues = [83, 95], // Porcentajes finales para cada gráfico
-//         speed = 10; // Velocidad de la animación
-
-//     // Iterar sobre cada elemento de progreso
-//     for (let i = 0; i < circularProgress.length; i++) {
-//         // Llamar a la función para animar el progreso
-//         animateProgress(circularProgress[i], progressValue[i], progressEndValues[i]);
-//     }
-
-//     // Función para animar el progreso 
-//     function animateProgress(circularProgress, progressValue, progressEndValue) {
-//         let progress = 0; // Valor inicial del progreso
-
-//         // Configurar un intervalo para la animación
-//         let progressInterval = setInterval(() => {
-//             progress++; // Incrementar el valor del progreso
-//             progressValue.textContent = `${progress}%`;// Actualizar el texto del progreso
-//             // Actualizar el fondo del gráfico
-//             circularProgress.style.background = `conic-gradient(var(--graphic-color) ${progress * 3.6}deg, var(--opacity-color) 0deg)`;
-
-//             // Detener la animación cuando se alcanza el valor final
-//             if (progress === progressEndValue) {
-//                 clearInterval(progressInterval);
-//             }
-//         }, speed);
-//     }
-// });
-
-
-
 // Evento de carga del contenido del documento
 document.addEventListener("DOMContentLoaded", function () {
     var numbers = document.querySelectorAll('.Portfolio-score-positive');
