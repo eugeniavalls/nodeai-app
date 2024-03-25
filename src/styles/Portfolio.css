@@ -45,11 +45,18 @@
     height: 9.375rem;
     width: 9.375rem;
     border-radius: 50%;
-    background: conic-gradient(var(--graphic-color) 3.6deg, var(--opacity-color) 0deg);
     display: flex;
     align-items: center;
     justify-content: center;
-} 
+}
+
+.progress-83 {
+    background: conic-gradient(var(--graphic-color) 298.8deg, var(--opacity-color) 0deg);
+}
+
+.progress-95 {
+    background: conic-gradient(var(--graphic-color) 342deg, var(--opacity-color) 0deg);
+}
 
 /* Pseudo-elemento ::before para crear un círculo interno que actúa como fondo */
 .Graphic-circular-progress::before {
@@ -67,7 +74,7 @@
     font-weight: var(--font-semibold);
     color: var(--graphic-color);
 }
-  
+
 
 
 .Arrow {

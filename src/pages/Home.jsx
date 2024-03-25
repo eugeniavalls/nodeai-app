@@ -50,7 +50,7 @@ const Portfolio = () => {
                     <div className='Graphic'>
                         <p className='Graphic-text'>Current Portfolio Score</p>
                         <div className='Graphic-container'>
-                            <div className='Graphic-circular-progress'>
+                            <div className='Graphic-circular-progress progress-83'>
                                 <span className='Graphic-progress-value'>83%</span>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                     <div className='Graphic'>
                         <p className='Graphic-text'>New Portfolio Score</p>
                         <div className='Graphic-container'>
-                            <div className='Graphic-circular-progress'>
+                            <div className='Graphic-circular-progress progress-95'>
                                 <span className='Graphic-progress-value'>95%</span>
                             </div>
                         </div>
