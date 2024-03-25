@@ -49,12 +49,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 /* Pseudo-elemento ::before para crear un círculo interno que actúa como fondo */
 .Graphic-circular-progress::before {
     content: "";
-    /* Contenido vacío para que el pseudo-elemento sea visible */
     position: absolute;
     height: 6.25rem;
     width: 6.25rem;
@@ -68,6 +67,8 @@
     font-weight: var(--font-semibold);
     color: var(--graphic-color);
 }
+  
+
 
 .Arrow {
     display: flex;

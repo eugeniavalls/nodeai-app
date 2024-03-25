@@ -32,6 +32,8 @@ window.addEventListener('load', function () {
     }
 });
 
+
+
 // Evento de carga del contenido del documento
 document.addEventListener("DOMContentLoaded", function () {
     var numbers = document.querySelectorAll('.Portfolio-score-positive');
